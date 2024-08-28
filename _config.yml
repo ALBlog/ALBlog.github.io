@@ -104,9 +104,25 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: next #maupassant
 
+# https://github.com/next-theme/hexo-word-counter 字数统计
+symbols_count_time:
+  # 每篇文章前显示
+  symbols: true
+  time: true
+  # 网站底部显示
+  total_symbols: false
+  total_time: false
+  exclude_codeblock: false
+  # 平均字节长度（Average Word Length）。默认为4 如果文章中大多中文，那么设置awl为2，wpm为300比较合适
+  awl: 2
+  # wpm – 每分钟阅读字数（Words Per Minute）。默认为275
+  wpm: 200
+  suffix: "mins."
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: git@github.com:ALBlog/ALBlog.github.io.git
-  branch: main
+# 不在使用deployment的方式，改成action
+# deploy:
+#   type: git
+#   repo: git@github.com:ALBlog/ALBlog.github.io.git
+#   branch: main
