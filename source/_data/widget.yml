@@ -1,0 +1,8 @@
+# 添加welcome
+welcome:
+  layout: markdown
+  title: '欢迎来到辞酒的博客'
+  content: |
+    <b>悲观者永远正确，乐观者永远前行！</b>
+    <script src="https://v1.hitokoto.cn/?c=i&encode=js&select=%23hitokoto" defer=""></script>
+    <p>一言：<span id="hitokoto"></span></p>
