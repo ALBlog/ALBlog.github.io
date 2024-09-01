@@ -3,13 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 辞酒
-subtitle: 'Stay Hungry, Stay Foolish'
-description: '一个毕业的程序员在炒股，永远看多'
+title: 辞酒‘s blog
+subtitle: 'Stay Hungry, Stay Foolish | 大A永不言败'
+description: '大A永不言败'
 keywords: ['股票','复盘','生活',]
-author: 
+author: 辞酒
 language: zh-CN
 timezone: ''
+avatar: /images/avatar.jpg
+favicon: /images/favicon.png
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -102,7 +104,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next #maupassant
+theme: stellar #next #maupassant
 
 # https://github.com/next-theme/hexo-word-counter 字数统计
 symbols_count_time:
@@ -126,3 +128,4 @@ symbols_count_time:
 #   type: git
 #   repo: git@github.com:ALBlog/ALBlog.github.io.git
 #   branch: main
+

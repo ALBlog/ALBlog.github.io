@@ -1,0 +1,91 @@
+##############
+# 文章内容配置
+##############
+
+
+# 文章类型
+# tech: 默认技术类文章, 
+# story: 图文类文章，文字和段落间增距大。
+article:
+  type: tech # tech/story
+
+# 根据 tags 作为关键词为每一篇文章在线搜索封面
+  auto_cover: false
+
+# 建议您通过 description 或者 excerpt 方式生成摘要，
+# 但如果您希望自动从文章内容截取一定字数的文字作为摘要，可以这样设置：
+# 也可使用<!-- more -->在正文中设置
+  auto_excerpt: 200
+
+
+##############
+# 侧边栏配置
+##############
+
+sidebar:
+  logo:
+    # avatar: /about/
+    # subtitle: 'Stay Hungry, Stay Foolish | 大A永不言败' 
+
+# 文章搜索
+# search:
+#   service: local_search # local_search, todo...
+#   local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
+#     field: all # post, page, all
+#     path: /search.json # 搜索文件存放位置
+#     content: true # 是否搜索内容
+#     codeblock: true # 是否搜索代码块（需要content: true)
+
+open_graph:
+  enable: true
+  twitter_id: # for open_graph meta
+
+######## Tag Plugins ########
+tag_plugins:
+  # {% image %}
+  image:
+    fancybox: true
+
+
+site_tree:
+  index_blog:
+    nav_tabs: 
+      # '关于': /about/
+
+footer:
+  social:
+    github:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
+      url: /
+    music:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3845874.svg"/>'
+      url: /
+    unsplash:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3616429.svg"/>'
+      url: /
+    comments:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/942ebbf1a4b91.svg"/>'
+      url: /about/#comments
+    theme:
+      icon: default:theme
+      onclick: 'switchTheme()'
+  sitemap:
+    "博客":
+      - "[近期发布](/)"
+      - "[分类](/categories/)"
+      - "[标签](/tags/)"
+      - "[归档](/archives/)"
+    "股市":
+      - "[大A永不言败](/)"
+    "社交":
+      - "[Stellar Wiki](https://xaoxuu.com/wiki/)"
+      - "[没有友链](/)"
+    "关于":
+      - "[关于本站](/about/)"
+      - "[GitHub](https://github.com/Allenn-Liu)"
+      - "[邮件](mailto:allen.lj@qq.com)"
+  content: | # 支持 Markdown 格式
+    本站由 [{author.name}](/) 使用 [Hexo](https://hexo.io/zh-cn/) & [{theme.name} {theme.version}]({theme.tree}) 强力驱动。
+    本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
+
+  
