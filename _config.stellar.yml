@@ -8,6 +8,8 @@
 # story: 图文类文章，文字和段落间增距大。
 article:
   type: tech # tech/story
+  # 缩进两个文字宽度，适合文字类博客，可以在 front-matter/topic/wiki 中覆盖此参数
+  # indent: true
 
 # 根据 tags 作为关键词为每一篇文章在线搜索封面
   auto_cover: false
@@ -36,9 +38,9 @@ sidebar:
 #     content: true # 是否搜索内容
 #     codeblock: true # 是否搜索代码块（需要content: true)
 
-open_graph:
-  enable: true
-  twitter_id: # for open_graph meta
+# open_graph:
+#   enable: true
+#   twitter_id: # for open_graph meta
 
 ######## Tag Plugins ########
 tag_plugins:
@@ -87,5 +89,5 @@ footer:
   content: | # 支持 Markdown 格式
     本站由 [{author.name}](/) 使用 [Hexo](https://hexo.io/zh-cn/) & [{theme.name} {theme.version}]({theme.tree}) 强力驱动。
     本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
-
-  
+    本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次，本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
