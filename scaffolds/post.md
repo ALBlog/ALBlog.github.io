@@ -1,5 +1,5 @@
 ---
-title: 5.x{{ title }}
+title: 5.x {{ title }}
 date: {{ date }}
 tags: ['大A']
 categories: ['复盘']
